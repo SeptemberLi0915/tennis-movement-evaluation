@@ -1,0 +1,41 @@
+# 视频
+*.mp4
+
+# 模型权重
+*.pt
+*.pth
+*.onnx
+
+# 大数据 / 缓存
+*.npz
+*.npy
+keypoints/
+data/
+
+# Python 虚拟环境 / 缓存
+.venv/
+__pycache__/
+*.pyc
+
+# Gradio 缓存
+.gradio/
+
+# 运行时缓存
+_cache_*
+
+# 图片
+*.png
+*.jpg
+*.jpeg
+
+# 系统 / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+
+# 聊天记录导出
+data-c6299bd1-*/
+
+# 旧实验归档
+archive/
+归档_旧实验/
